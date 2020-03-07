@@ -1,0 +1,34 @@
+#astronauts{
+    top:57%;
+    left:65%;
+    animation: astronauts 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes astronauts{
+    from{
+        transform: scale(0.8)
+    }
+    to{
+        transform: scale(1.2)
+    }
+}
+
+#star{
+    top:55%;
+    left:25%;
+}
+
+#planet{
+    top:8%;
+    left:78%;
+    animation: planet 3s linear infinite;
+}
+
+@keyframes planet{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

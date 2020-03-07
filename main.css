@@ -1,0 +1,55 @@
+.whole{
+    position:absolute;
+    width: 101vw;
+    height:101vh;
+    margin:-1vw;
+}
+
+.page{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#cover{
+    z-index:10;
+    background-color: transparent;
+}
+
+.middle{
+    left:50%;
+    transform: translateX(-50%);
+}
+
+img{
+    zoom:1.7;
+}
+
+.free-ent{
+    position: absolute;
+    transform-origin: 50% 50%;
+}
+
+.texts{
+    position: relative;
+    margin:1vw;
+}
+
+.text-block{
+    position: absolute;
+    z-index:-10;
+    top:35%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.Monster-block{
+    position: absolute;
+    bottom:12vh;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.Monster-ent{
+    top:48%;
+    left:38%;
+}

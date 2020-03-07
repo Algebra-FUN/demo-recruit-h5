@@ -1,0 +1,15 @@
+.UFO-4-block{
+    z-index:10;
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#flashing{
+    margin-top:-10vw;
+}
+
+#UFO-4{
+    width:60%;
+    margin-left:20%;
+}

@@ -1,0 +1,28 @@
+.line{
+    margin:1vw;
+}
+
+#line-0{
+    left:36.5vw
+}
+#line-1{
+    left:36vw
+}
+#line-2{
+    right:43.5vw;
+    direction: rtl;
+}
+#line-3{
+    left:55vw
+}
+#line-4{
+    right:38.8vw;
+    direction: rtl;
+}
+#line-5{
+    right:37.6vw;
+    direction: rtl;
+}
+#line-6{
+    left:61.8vw
+}

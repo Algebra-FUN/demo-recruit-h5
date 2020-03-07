@@ -1,0 +1,24 @@
+#Axure{
+    left:13%;
+    top:74%;
+}
+
+#X-mind{
+    top:63%;
+    left:67%;
+}
+
+#UFO-3{
+    top:0%;
+    left:20%;
+    animation: UFO-3 4s ease-in-out alternate infinite;
+}
+
+@keyframes UFO-3{
+    from{
+        transform: translate(-12vw,-6vh) scale(0.6);
+    }
+    to{
+        transform: translate(30vw,10vh) scale(1);
+    }
+}

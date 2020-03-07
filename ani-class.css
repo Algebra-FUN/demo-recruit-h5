@@ -1,0 +1,55 @@
+@keyframes swing{
+    from{
+        transform: rotate(15deg)
+    }
+    to{
+        transform: rotate(-15deg)
+    }
+}
+
+.swing{
+    animation: swing .8s ease-in-out infinite alternate;
+}
+
+.swing-reverse{
+    animation: swing .8s ease-in-out infinite alternate-reverse;
+}
+
+.swing-slow{
+    animation: swing 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes staring{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+.staring{
+    animation: staring .8s infinite alternate;
+}
+
+@keyframes meating{
+    from{
+        transform: scale(0.95,1.05)
+    }
+    to{
+        transform: scale(1.05,0.95)
+    }
+}
+
+.Monster-meating{
+    animation: meating 1s ease-in-out infinite alternate;
+    transform-origin: 50% 100%;
+}
+
+.meating{
+    animation: meating 1s ease-in-out infinite alternate;
+}
+
+.meating-reverse{
+    animation: meating 1s ease-in-out infinite alternate-reverse;
+}
